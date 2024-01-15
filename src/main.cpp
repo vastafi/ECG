@@ -54,7 +54,7 @@ double current_millis_at_sensordata = 0;
 double timestampp = 0;
 
 /******************************** Filter section ****************************************/
-#include <filters.h>
+#include <filters.h> // must be loaded manually
 #include <KickFiltersRT.h>
 
 const float flp_cutoff_freq  = 30.0;                    //Cutoff frequency in Hz
